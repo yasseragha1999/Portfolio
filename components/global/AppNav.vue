@@ -11,15 +11,6 @@
           ></v-toolbar>
         </v-col>
 
-        <v-col cols="12" md="6" class="d-none d-md-flex justify-center">
-          <ul class="d-flex align-center justify-space-between nav-links">
-            <nuxt-link><li>Fokir</li></nuxt-link>
-            <nuxt-link><li>DeFolio</li></nuxt-link>
-            <nuxt-link><li>Danils</li></nuxt-link>
-            <nuxt-link><li>Bakery</li></nuxt-link>
-          </ul>
-        </v-col>
-
         <v-col cols="6" md="3">
           <div class="icon-nav justify-end d-flex" style="gap: 20px">
             <v-icon
