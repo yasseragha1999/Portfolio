@@ -2,27 +2,24 @@
   <v-app-bar app color="primary" dark flat>
     <v-container>
       <v-row class="justify-space-between align-center">
-        <!-- Logo -->
         <v-col cols="6" md="2">
           <v-toolbar
-            style="background-color: transparent; cursor: pointer;"
+            style="background-color: transparent; cursor: pointer"
             color="primary"
             title="Y𝓪𝓼𝓼𝓮𝓻ツ"
             class="pa-0"
           ></v-toolbar>
         </v-col>
 
-        <!-- Navigation Links -->
         <v-col cols="12" md="6" class="d-none d-md-flex justify-center">
           <ul class="d-flex align-center justify-space-between nav-links">
-            <nuxt-link to="/" exact><li>Fokir</li></nuxt-link>
-            <nuxt-link to="/defolio"><li>DeFolio</li></nuxt-link>
-            <nuxt-link to="/danils"><li>Danils</li></nuxt-link>
-            <nuxt-link to="/bakery"><li>Bakery</li></nuxt-link>
+            <nuxt-link><li>Fokir</li></nuxt-link>
+            <nuxt-link><li>DeFolio</li></nuxt-link>
+            <nuxt-link><li>Danils</li></nuxt-link>
+            <nuxt-link><li>Bakery</li></nuxt-link>
           </ul>
         </v-col>
 
-        <!-- Social Icons -->
         <v-col cols="6" md="3">
           <div class="icon-nav justify-end d-flex" style="gap: 20px">
             <v-icon
@@ -74,7 +71,6 @@ export default {
   color: #ffcc00;
 }
 
-/* Responsive menu could go here if needed */
 @media (max-width: 960px) {
   .nav-links {
     flex-direction: column;

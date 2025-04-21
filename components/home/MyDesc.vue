@@ -1,11 +1,8 @@
 <template>
-  <div class="desc mt-5">
+  <div class="desc my-16">
     <div class="image-cover">
       <v-container>
-        <v-row
-          class="d-flex justify-space-between align-center mt-16"
-          align="center"
-        >
+        <v-row class="d-flex justify-space-between align-center mt-16">
           <!-- Image Card -->
           <v-col
             cols="12"
