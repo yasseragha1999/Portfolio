@@ -7,7 +7,12 @@
           Crafted with ❤️ using Nuxt & Vuetify
         </v-col>
 
-        <v-col cols="12" md="4" class=" mb-4 mb-md-0 d-flex justify-end" style="gap: 20px">
+        <v-col
+          cols="12"
+          md="4"
+          class="mb-4 mb-md-0 d-flex justify-center justify-md-end"
+          style="gap: 20px"
+        >
           <v-btn icon @click="goToGitHub" target="_blank">
             <v-icon>mdi-github</v-icon>
           </v-btn>

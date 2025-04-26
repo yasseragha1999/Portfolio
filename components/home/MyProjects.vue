@@ -1,7 +1,9 @@
 <template>
   <div class="all-project">
     <div class="title text-center">
-      <v-card-title class="pl-0" style="font-size: 45px; font-weight: 900"
+      <v-card-title
+        class="pl-0 text-green-darken-2"
+        style="font-size: 45px; font-weight: 900"
         >𝓟𝓻𝓸𝓳𝓮𝓬𝓽</v-card-title
       >
     </div>
@@ -37,7 +39,10 @@
               class="w-100"
               height="250"
               cover
-              style="border-radius: 0 75px"
+              style="
+                border-radius: 30px;
+                background: linear-gradient(135deg, #504e4e 0%, #7c7472 100%);
+              "
             />
           </v-card>
         </v-col>

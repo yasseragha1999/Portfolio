@@ -18,7 +18,7 @@
                 position: relative;
                 border-radius: 25px;
                 padding: 5px;
-                background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+                background: linear-gradient(135deg, #504e4e 0%, #7c7472 100%);
                 overflow: hidden;
               "
             >
