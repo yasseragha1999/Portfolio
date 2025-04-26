@@ -14,15 +14,34 @@
               width="100%"
               max-width="450"
               height="450"
-              style="border-radius: 30px 75px 30px 75px"
+              style="
+                position: relative;
+                border-radius: 25px;
+                padding: 5px;
+                background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+                overflow: hidden;
+              "
             >
-              <v-img
-                src="/public/main.jpg"
-                cover
-                height="100%"
-                width="100%"
-                class="transition-slow"
-              ></v-img>
+              <div
+                style="
+                  background: white;
+                  border-radius: 20px;
+                  width: 100%;
+                  height: 100%;
+                  overflow: hidden;
+                  transition: transform 0.3s ease;
+                "
+                class="d-flex align-center justify-center"
+              >
+                <v-img
+                  src="/public/main.jpg"
+                  cover
+                  height="100%"
+                  width="100%"
+                  class="transition-slow"
+                  style="border-radius: 20px"
+                ></v-img>
+              </div>
             </v-card>
           </v-col>
 
@@ -34,50 +53,19 @@
               class="pa-8 pa-md-16"
               style="width: 100%; max-width: 600px"
             >
-              <v-card-title
-                class="px-0 pb-4 pb-md-6"
-                style="font-size: 22px; font-weight: 900"
-              >
-                ~-- Front-End Developer --~
-              </v-card-title>
-
               <v-card-text
-                class="px-0"
-                style="font-size: 17px; font-weight: 600"
+                class="pa-0"
+                style="
+                  font-size: 25px;
+                  font-family: 'Courier New', Courier, monospace;
+                  font-style: italic;
+                "
               >
-                KeyWords:
+                I enjoy diving into challenging projects that push the
+                boundaries of technology. My focus is on delivering scalable
+                solutions that meet user needs and enhance overall system
+                performance.
               </v-card-text>
-              <ul class="keyword-list pl-6 pl-md-8">
-                <li>Html</li>
-                <li>Css</li>
-                <li>JS</li>
-              </ul>
-
-              <v-card-text
-                class="px-0"
-                style="font-size: 17px; font-weight: 600"
-              >
-                FrameWork:
-              </v-card-text>
-              <ul class="keyword-list pl-6 pl-md-8">
-                <li>React.JS</li>
-                <li>Next.JS</li>
-                <li>Vue.JS</li>
-                <li>Nuxt.JS</li>
-              </ul>
-
-              <v-card-text
-                class="px-0"
-                style="font-size: 17px; font-weight: 600"
-              >
-                UI Component Library:
-              </v-card-text>
-              <ul class="keyword-list pl-6 pl-md-8">
-                <li>Material UI (MUI)</li>
-                <li>Vuetify</li>
-                <li>Bootstrap</li>
-                <li>Tailwind UI</li>
-              </ul>
             </v-card>
           </v-col>
         </v-row>
